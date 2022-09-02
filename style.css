@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #FFFFFF;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: solid #868383;
+    font-family: 'Roboto', sans-serif;
+
+
+    
+}
+.botao1{
+    background-color: #0a99fe;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}
+.botao2{
+    background-color: #0b99fe1a;
+    
+    color: #0a99fe;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+li{
+    background: #eeecec;
+    display: flex;
+    width: 207px;
+    height: 275px;
+    margin: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    padding: 0 0 10px 0;
+    
+}
+
+.figure_action{
+    display: flex;
+    overflow-x: auto;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.decorative_frames{
+    display: flex;
+    overflow-x: auto;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.figure{
+    display: flex;
+    
+}
+.figure img{
+    height: 200px;
+    border-radius: 7px 7px 0 0;
+    display: none;
+}
+
+.frame{
+    display: flex;
+}
+.frame img{
+    height: 207px;
+    border-radius:5px 5px 0 0;
+    display: none;
+}
+
+figure{
+    display: block;
+    width: 100%;
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    border-radius: 7px 7px 0 0 ;
+}
+
+
+span{
+    color: #868383;
+    font-weight: bold;
+    font-size: 16px;
+}
+h3{
+    color: #1B1B1B;
+    font-size: 20px;
+}
+h1{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
